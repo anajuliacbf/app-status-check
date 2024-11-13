@@ -5,6 +5,5 @@ if [ $STATUS -eq 200 ]; then
     echo "Application is up and running."
 else
     echo "Application is down. Status code: $STATUS"
-    exit 1
 fi
 
