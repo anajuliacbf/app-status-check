@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                // Clone the repository (SCM is automatically configured by Jenkins)
+                // Clona o repositório (SCM está automaticamente configurado pelo Jenkins)
                 checkout scm
             }
         }
