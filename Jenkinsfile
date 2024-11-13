@@ -5,7 +5,7 @@ pipeline {
             steps {
                 git url: 'git@github.com:anajuliacbf/app-status-check.git', 
                     branch: 'main',
-                    credentialsId: 'git' // Use the ID from step 1
+                    credentialsId: 'github-ssh-key' // Use the ID from step 1
             }
         }
         stage('Run Status Check') {
